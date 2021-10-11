@@ -1,0 +1,53 @@
+#texto{
+
+/* centrado vertical */
+position: relative;
+top: 50%;
+color: darkkhaki;
+}
+.container{
+    background-color:#293039;
+}
+
+
+#log{
+
+    /* centrado vertical */
+    position: relative;
+    margin: auto;
+    top: 50%;
+    
+    }
+
+    .col-lg-8{
+
+        margin: auto;
+       
+    }
+    
+    .col-lg-8 a{
+
+       
+        color: #29B3BA;
+    }
+    
+
+    .col-lg-2{
+        margin: auto;
+    }
+
+    #somos{
+       
+        background-color: white;
+    }
+
+    #somos a{
+        color: #293039;
+       
+       
+    }
+
+    #slideIMG{
+    width: 800px;
+    height: 500px;
+    }
