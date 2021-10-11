@@ -51,3 +51,62 @@ color: darkkhaki;
     width: 800px;
     height: 500px;
     }
+   
+    .quien{
+        background-color:white;
+    }
+    .quien h1{
+        text-align: center;
+    }
+
+    .servicios h1{
+        text-align: center;
+        color: white;
+
+    }
+    .card{
+        background-color:#293039;
+     
+        color:white;
+        
+        
+
+    }
+    .card-img-top{
+        position: relative;
+        align-content: center;
+        margin: auto;
+        max-width:20%;
+        height:auto;
+    }
+    .card-body h5{
+        color: #29B3BA;
+    }
+  
+    .btn {
+        color: #29B3BA;
+    }
+    .productos h1{
+        background-color:white;
+        text-align: center;
+    }
+    .como h1{
+        text-align: center;
+        color: white;
+        
+    }
+    #afiliarme{
+        background-color: #29B3BA;
+    }
+  #plan{
+    color: white;
+    text-align: center;
+  }
+  #infoplan{
+      color:black;
+  }
+  .btn{
+    position: relative;
+    margin: auto;   
+    color: white;
+  }
