@@ -84,6 +84,7 @@ color: darkkhaki;
     }
   
     .btn {
+        background-color: Transparent;
         color: #29B3BA;
     }
     .productos h1{
@@ -110,3 +111,28 @@ color: darkkhaki;
     margin: auto;   
     color: white;
   }
+
+  .piepag{
+    background-color:white;
+  }
+  .text-fout{
+      font-weight: bold;
+  }
+
+.cpyr{
+    text-align: center;
+    color: white;
+}
+.avatar{
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    width:300px;
+    height:300px;
+    border-radius:150px;
+
+}
+#piepagcen{
+
+    position: relative;
+    margin: auto;
+    top: 50%;
+    }
