@@ -1,11 +1,10 @@
 #loguinlog{
-    /* centrado vertical */
+
 position: relative;
 top: 50%;
 background-color: #293039 ;
 
 }
-
   nav {
     float: left;
     width: 40%;
@@ -32,22 +31,20 @@ background-color: #293039 ;
     align-content: center;
   }
   
-  /* Clear floats after the columns */
+ 
   section::after {
     content: "";
     display: table;
     clear: both;
   }
-  
-  /* Style the footer */
+ 
   footer {
     background-color: white;
     padding: 10px;
     text-align: center;
     
   }
-  
- 
+
   @media (max-width: 600px) {
     nav, article {
       width: 100%;
@@ -64,11 +61,6 @@ background-color: #293039 ;
     display: flex;
     overflow: hidden;
   }
-  input {
-   
-    
-  }
-  
   .login-form {
     
     min-height: 10rem;
@@ -92,7 +84,7 @@ background-color: #293039 ;
     }
   
 
-  .login-submit {
+  .btn {
     border: 1px solid #293039;
     background: transparent;
     color: #293039;
@@ -100,8 +92,8 @@ background-color: #293039 ;
     margin: 5rem auto;
     min-width: 1px;
     padding: .50rem;
-  
-   
+     border-radius: 6px;
+
   }
   .login-forgot-pass{
     color: #293039;
