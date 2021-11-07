@@ -1,0 +1,120 @@
+#loguinlog{
+    /* centrado vertical */
+position: relative;
+top: 50%;
+background-color: #293039 ;
+
+}
+
+  nav {
+    float: left;
+    width: 40%;
+    height: 700px; 
+    background: #293039;
+    padding: 10px;
+   
+  }
+  
+ .imglog{
+    position: relative;
+    align-content: center;
+    margin: auto;
+    max-width:150%;
+    height:auto;
+ }
+  article {
+    float: left;
+    padding: 20px;
+    width: 60%;
+    background-color: white;
+    height: 700px; 
+    position: relative;
+    align-content: center;
+  }
+  
+  /* Clear floats after the columns */
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+ 
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  body, html {
+    height: 100%;
+  }
+  body {
+    
+    font-weight: 100;
+    display: flex;
+    overflow: hidden;
+  }
+  input {
+   
+    
+  }
+  
+  .login-form {
+    
+    min-height: 10rem;
+    margin: auto;
+    max-width: 50%;
+    padding: .5rem;
+  }
+ h1{
+     text-align: center;
+ }
+  
+  .login-username, .login-password {
+    background: transparent;
+    border: 0 solid;
+    border-bottom: 1px solid rgba(white, .5);
+    display: block;
+    margin: 1rem;
+    padding: .5rem;
+    width: calc(100% - 3rem);
+    
+    }
+  
+
+  .login-submit {
+    border: 1px solid #293039;
+    background: transparent;
+    color: #293039;
+    display: block;
+    margin: 5rem auto;
+    min-width: 1px;
+    padding: .50rem;
+  
+   
+  }
+  .login-forgot-pass{
+    color: #293039;
+    position: relative;  
+    align-content: center;
+    top: 50%;
+  }
+  
+  @keyframes hue-rotate {
+    from {
+      -webkit-filter: grayscale(30%) hue-rotate(0deg);
+    }
+    to {
+      -webkit-filter: grayscale(30%) hue-rotate(360deg);
+    }
+  }
